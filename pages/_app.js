@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }) {
           rel="stylesheet"
         />
 
-        <link rel="stylesheet" href="css/basic.css" />
+        <link rel="stylesheet" href="public/css/basic.css" />
         <link rel="stylesheet" href="css/layout.css" />
         <link rel="stylesheet" href="css/magnific-popup.css" />
         <link rel="stylesheet" href="css/animate.css" />
