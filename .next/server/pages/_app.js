@@ -29,6 +29,14 @@ var external_react_ = __webpack_require__(6689);
 
 
 
+
+
+
+
+
+
+
+
 function MyApp({ Component , pageProps  }) {
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(external_react_.Fragment, {
         children: [
@@ -40,38 +48,6 @@ function MyApp({ Component , pageProps  }) {
                     /*#__PURE__*/ jsx_runtime_.jsx("link", {
                         href: "https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic",
                         rel: "stylesheet"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "css/layout.css"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "css/magnific-popup.css"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "css/animate.css"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "css/jarallax.css"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "css/swiper.css"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "css/fontawesome.css"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "css/brands.css"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "css/solid.css"
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("link", {
                         rel: "shortcut icon",
