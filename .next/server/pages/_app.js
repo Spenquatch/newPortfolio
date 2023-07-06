@@ -42,7 +42,7 @@ function MyApp({ Component , pageProps  }) {
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("link", {
                         rel: "stylesheet",
-                        href: "../css/basic.css"
+                        href: "../public/css/basic.css"
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("link", {
                         rel: "stylesheet",
