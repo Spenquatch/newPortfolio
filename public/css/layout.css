@@ -3961,7 +3961,7 @@ object {
 /* Background Option */
 .video-bg {
   margin-left: -50vw;
-  position: absolute !important;
+  position: fixed !important;
   top: 0;
   left: 50%;
   width: 100vw;

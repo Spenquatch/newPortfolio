@@ -42,13 +42,13 @@ const Resume = () => {
       {/* Section Interests */}
       <Interests />
       {/* Section Team */}
-      <Team />
+      {/* <Team /> */}
       {/* Section Testimonials */}
-      <Testimonials />
+      {/* <Testimonials /> */}
       {/* Section Clients */}
       <Clients />
       {/* Section Custom Text */}
-      <CustomText />
+      {/* <CustomText /> */}
     </Layout>
   );
 };

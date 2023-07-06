@@ -449,6 +449,10 @@ a:hover {
 	color: #4bffa5;
 }
 
+.copy a {
+	text-decoration: none;
+}
+
 /* Animate Button Hover */
 .ink {
 	display: block;
