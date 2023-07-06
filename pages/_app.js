@@ -2,6 +2,14 @@ import Head from "next/head";
 import { Fragment } from "react";
 import "../styles/globals.css";
 import "../public/css/basic.css";
+import "../public/css/layout.css";
+import "../public/css/magnific-popup.css";
+import "../public/css/animate.css";
+import "../public/css/jarallax.css";
+import "../public/css/swiper.css";
+import "../public/css/fontawesome.css";
+import "../public/css/brands.css";
+import "../public/css/solid.css";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -14,14 +22,6 @@ function MyApp({ Component, pageProps }) {
           rel="stylesheet"
         />
 
-        <link rel="stylesheet" href="css/layout.css" />
-        <link rel="stylesheet" href="css/magnific-popup.css" />
-        <link rel="stylesheet" href="css/animate.css" />
-        <link rel="stylesheet" href="css/jarallax.css" />
-        <link rel="stylesheet" href="css/swiper.css" />
-        <link rel="stylesheet" href="css/fontawesome.css" />
-        <link rel="stylesheet" href="css/brands.css" />
-        <link rel="stylesheet" href="css/solid.css" />
         <link rel="shortcut icon" href="images/favicons/favicon.ico" />
       </Head>
       <Component {...pageProps} />
