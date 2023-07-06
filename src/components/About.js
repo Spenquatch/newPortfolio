@@ -9,7 +9,7 @@ const About = () => {
         {/* desc */}
         <div className="desc">
           <p>
-            Hello! I’m Daniel Curry. Web designer from USA, California, San
+            Hello! I’m Daniel. Web designer from USA, California, San
             Francisco. I have rich experience in web site design and building,
             also I am good at wordpress. I love to talk with you about our
             unique.
