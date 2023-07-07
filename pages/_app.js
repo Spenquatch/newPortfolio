@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }) {
           rel="stylesheet"
         />
 
-        <link rel="shortcut icon" href="images/favicons/favicon.ico" />
+        <link rel="shortcut icon" href="images/favicons/favicon.png" />
       </Head>
       <Component {...pageProps} />
     </Fragment>
