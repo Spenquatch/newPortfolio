@@ -17,7 +17,7 @@ const About = () => {
         {/* desc */}
         <div className="desc">
           <p>
-            Hello there! I'm <strong>Spenser McConnell</strong>, a passionate Web Developer and Technical Project Manager from Indianapolis, Indiana. With a <strong>analytical</strong> mind and a drive for <strong>results</strong>, I've dedicated my career to <strong>empowering</strong> my clients by boosting their brand visibility, driving revenue growth, and <strong>ensuring profitability</strong>. I take great pride in my <strong>interpersonal skills</strong>, and a strong combination of <strong>leadership</strong>, clear communication, and tenacious <strong>problem-solving skills</strong> have fueled my journey.
+            Hello there! I&apos;m <strong>Spenser McConnell</strong>, a passionate Web Developer and Technical Project Manager from Indianapolis, Indiana. With a <strong>analytical</strong> mind and a drive for <strong>results</strong>, I&apos;ve dedicated my career to <strong>empowering</strong> my clients by boosting their brand visibility, driving revenue growth, and <strong>ensuring profitability</strong>. I take great pride in my <strong>interpersonal skills</strong>, and a strong combination of <strong>leadership</strong>, clear communication, and tenacious <strong>problem-solving skills</strong> have fueled my journey.
           </p>
           <div className="info-list">
             <ul>

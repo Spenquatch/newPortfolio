@@ -4,7 +4,7 @@ const Clients = () => {
       <div className="content">
         {/* title */}
         <div className="title">
-          <div className="title_inner">Brands I've Worked With</div>
+          <div className="title_inner">Brands I&apos;ve Worked With</div>
         </div>
         {/* clients items */}
         <div className="content-box">

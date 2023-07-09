@@ -70,7 +70,7 @@ const Service = () => {
               </div>
               <div className="name">Content Management and Hosting Services</div>
               <div className="text">
-                Content management solutions including hosting, domain management, and email services, ensuring that clients' websites are secure and perform optimally.
+                Content management solutions including hosting, domain management, and email services, ensuring that clients&apos; websites are secure and perform optimally.
               </div>
             </div>
           </div>
