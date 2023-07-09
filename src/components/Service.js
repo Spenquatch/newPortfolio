@@ -13,70 +13,75 @@ const Service = () => {
               <div className="icon">
                 <span className="fas fa-code" />
               </div>
-              <div className="name">Web Development</div>
+              <div className="name">Full Stack Web Development</div>
               <div className="text">
-                Modern and mobile-ready website that will help you reach all of
-                your marketing.
+              Develop comprehensive solutions for creating robust and dynamic websites and web applications. From crafting intuitive front-end user interfaces to developing efficient back-end server logic, I ensure seamless integration of all layers of web development.
               </div>
             </div>
           </div>
           <div className="service-col">
             <div className="service-item content-box">
               <div className="icon">
-                <span className="fas fa-music" />
+                <span className="fas fa-clipboard-check" />
               </div>
-              <div className="name">Music Writing</div>
+              <div className="name">Technical Project Management</div>
               <div className="text">
-                Music copying, writing, creating, transcription, arranging and
-                services.
+              Careful oversight and expert direction of technology-focused projects, ensuring they are executed within scope, timeframes and budget, and seamlessly aligned with technical specifications and overarching business objectives.
               </div>
             </div>
           </div>
+          <div className="service-col">
+            <div className="service-item content-box">
+              <div className="icon">
+                <span className="fas fa-palette" />
+              </div>
+              <div className="name">UI/UX Design</div>
+              <div className="text">
+                Designing user interfaces and user experiences that are visually appealing and user-friendly. This includes creating rapid prototypes to test and validate design concepts before full-scale development.
+              </div>
+            </div>
+          </div>          
           <div className="service-col">
             <div className="service-item content-box">
               <div className="icon">
                 <span className="fas fa-ad" />
               </div>
-              <div className="name">Advetising</div>
+              <div className="name">Digital Marketing and Brand Development</div>
               <div className="text">
-                Advertising services include television, radio, print, mail, and
-                web apps.
+              Developing and executing innovative digital marketing campaigns, including social media marketing, to enhance brand visibility and engagement. This also includes creating brand-specific logos and graphics.
               </div>
             </div>
           </div>
           <div className="service-col">
             <div className="service-item content-box">
               <div className="icon">
-                <span className="fas fa-gamepad" />
+                <span className="fas fa-terminal" />
               </div>
-              <div className="name">Game Development</div>
+              <div className="name">Custom Software Development</div>
               <div className="text">
-                Developing memorable and unique mobile android, ios and video
-                games.
+                Utilizing modern technologies and frameworks such as ReactJS for custom software development. This includes designing, coding, integration testing, and debugging to ensure the software meets client requirements.
               </div>
             </div>
           </div>
           <div className="service-col">
             <div className="service-item content-box">
               <div className="icon">
-                <span className="fas fa-camera" />
+                <span className="fas fa-sitemap" />
               </div>
-              <div className="name">Photography</div>
+              <div className="name">Content Management and Hosting Services</div>
               <div className="text">
-                Our in-house photography services team made up of professional
-                photographers.
+                Content management solutions including hosting, domain management, and email services, ensuring that clients' websites are secure and perform optimally.
               </div>
             </div>
           </div>
           <div className="service-col">
             <div className="service-item content-box">
               <div className="icon">
-                <span className="fas fa-mobile-alt" />
+                <span className="fas fa-tag" />
               </div>
-              <div className="name">Android Application</div>
+              <div className="name">E-Commerce Solutions</div>
               <div className="text">
-                Games, playing music, handle network transactions, interacting
-                content etc.
+                Building and maintaining e-commerce websites, including setting up online stores, payment gateways, and ensuring security for transactions.
               </div>
             </div>
           </div>

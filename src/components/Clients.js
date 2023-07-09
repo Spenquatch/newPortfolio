@@ -4,7 +4,7 @@ const Clients = () => {
       <div className="content">
         {/* title */}
         <div className="title">
-          <div className="title_inner">Clients</div>
+          <div className="title_inner">Brands I've Worked With</div>
         </div>
         {/* clients items */}
         <div className="content-box">
@@ -12,31 +12,31 @@ const Clients = () => {
             <div className="clients-col">
               <div className="clients-item">
                 <a target="_blank" rel="noreferrer" href="#">
-                  <img src="images/client1.png" alt="" />
+                <img src="images/logos/humana.png" alt="" />
+                </a>
+              </div>
+            </div> 
+            <div className="clients-col">
+              <div className="clients-item">
+                <a target="_blank" rel="noreferrer" href="#">
+                <img src="images/logos/ims.png" alt="" />
                 </a>
               </div>
             </div>
             <div className="clients-col">
               <div className="clients-item">
                 <a target="_blank" rel="noreferrer" href="#">
-                  <img src="images/client3.png" alt="" />
+                <img src="images/logos/belray.png" alt="" />
                 </a>
               </div>
             </div>
             <div className="clients-col">
               <div className="clients-item">
                 <a target="_blank" rel="noreferrer" href="#">
-                  <img src="images/client2.png" alt="" />
+                <img src="images/logos/hoosierlottery.png" alt="" />
                 </a>
               </div>
-            </div>
-            <div className="clients-col">
-              <div className="clients-item">
-                <a target="_blank" rel="noreferrer" href="#">
-                  <img src="images/client4.png" alt="" />
-                </a>
-              </div>
-            </div>
+            </div>           
           </div>
         </div>
         <div className="clear" />

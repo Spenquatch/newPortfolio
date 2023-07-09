@@ -188,35 +188,176 @@ export const KnowledgeSkills = () => {
       <div className="content">
         {/* title */}
         <div className="title">
-          <div className="title_inner">Knowledge</div>
+          <div className="title_inner">Core Strengths</div>
         </div>
         {/* skills */}
         <div className="skills list content-box">
           <ul>
             <li>
-              <div className="name">Website hosting</div>
+              <div className="name">Front-End Development</div>
             </li>
             <li>
-              <div className="name">iOS and android apps</div>
+              <div className="name">Software/Product Development</div>
             </li>
             <li>
-              <div className="name">Create logo design</div>
+              <div className="name">Project Management</div>
             </li>
             <li>
-              <div className="name">Design for print</div>
+              <div className="name">Brand Development</div>
             </li>
             <li>
-              <div className="name">Modern and mobile-ready</div>
+              <div className="name">Digital Advertising</div>
             </li>
             <li>
-              <div className="name">Advertising services include</div>
+              <div className="name">Digital & Social Media Marketing</div>
             </li>
             <li>
-              <div className="name">Graphics and animations</div>
+              <div className="name">E-Commerce & Sales Strategy</div>
             </li>
             <li>
-              <div className="name">Search engine marketing</div>
+              <div className="name">Customer Experience Management</div>
             </li>
+            <li>
+              <div className="name">User Experience (UX) Design</div>
+            </li>    
+            <li>
+              <div className="name">User Interface (UI) Design </div>
+            </li>                        
+            <li>
+              <div className="name">Rapid Prototyping</div>
+            </li>  
+            <li>
+              <div className="name">Programming & Scripting</div>
+            </li> 
+            <li>
+              <div className="name">Networking/System Administration</div>
+            </li>  
+            <li>
+              <div className="name">Troubleshooting & Debugging</div>
+            </li>  
+            <li>
+              <div className="name">Integration Testing</div>
+            </li>
+            <li>
+              <div className="name">A/B Testing</div>
+            </li>   
+            <li>
+              <div className="name">Installation & Configuration</div>
+            </li> 
+            <li>
+              <div className="name">Market Research & Analysis</div>
+            </li>
+            <li>
+              <div className="name">Lean & Agile Methodology</div>
+            </li>
+            <li>
+              <div className="name">Cross-Functional Team Leadership</div>
+            </li>   
+            <li>
+              <div className="name">Multidisciplinary Collaboration</div>
+            </li> 
+            <li>
+              <div className="name">Interpersonal Communication</div>
+            </li>
+            <li>
+              <div className="name">Staff Training & Development</div>
+            </li>  
+            <li>
+              <div className="name">Coaching & Mentoring</div>
+            </li>                                        
+            <li>
+              <div className="name">Complex Problem Solving</div>
+            </li>    
+            <li>
+              <div className="name">Analytical Skills</div>
+            </li>                                    
+            <li>
+              <div className="name">Time Management </div>
+            </li>                                                                                                                                                                                                                                                            
+          </ul>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export const TechnicalSkills = () => {
+  return (
+    <div className="section skills" id="section-tech-skills-know">
+      <div className="content">
+        {/* title */}
+        <div className="title">
+          <div className="title_inner">Technical Skills & Technologies</div>
+        </div>
+        {/* skills */}
+        <div className="skills list content-box">
+          <ul>
+            <li>
+              <div className="name">HTML5</div>
+            </li>
+            <li>
+              <div className="name">CSS / SASS</div>
+            </li>
+            <li>
+              <div className="name">JavaScript</div>
+            </li>
+            <li>
+              <div className="name">jQuery</div>
+            </li>
+            <li>
+              <div className="name">ReactJS</div>
+            </li>
+            <li>
+              <div className="name">NextJS</div>
+            </li>
+            <li>
+              <div className="name">NodeJS</div>
+            </li>
+            <li>
+              <div className="name">PHP</div>
+            </li>
+            <li>
+              <div className="name">WordPress</div>
+            </li> 
+            <li>
+              <div className="name">MySQL</div>
+            </li> 
+            <li>
+              <div className="name">Git / GitHub </div>
+            </li>                               
+            <li>
+              <div className="name">REST API</div>
+            </li>        
+            <li>
+              <div className="name">JSON</div>
+            </li>   
+            <li>
+              <div className="name">Python</div>
+            </li>     
+            <li>
+              <div className="name">CLI</div>
+            </li>
+            <li>
+              <div className="name">VS Code</div>
+            </li> 
+            <li>
+              <div className="name">OpenAI</div>
+            </li>                                   
+            <li>
+              <div className="name">Adobe Creative Suite</div>
+            </li>   
+            <li>
+              <div className="name">Figma</div>
+            </li>   
+            <li>
+              <div className="name">Facebook Ads Manager</div>
+            </li>  
+            <li>
+              <div className="name">Windows, Mac OS, & Linux</div>
+            </li>             
+            <li>
+              <div className="name">MS Office Suite</div>
+            </li>                                                                                                                          
           </ul>
         </div>
       </div>

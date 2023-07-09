@@ -1,3 +1,4 @@
+
 export const cursor = () => {
   document.addEventListener("mousemove", function (e) {
     var x = e.pageX;
@@ -70,4 +71,24 @@ export const dotResize = () => {
       da.style.width = `${width + 1}px`;
     });
   });
+};
+
+import $ from "jquery";
+export const buttonHover = () => {
+  $(function() {  
+    $('.btn-6')
+      .on('mouseenter', function(e) {
+        var parentOffset = $(this).offset(),
+            relX = e.pageX - parentOffset.left,
+            relY = e.pageY - parentOffset.top;
+        $(this).find('span.btn-bg').css({top:relY, left:relX})
+      })
+      .on('mouseout', function(e) {
+        var parentOffset = $(this).offset(),
+            relX = e.pageX - parentOffset.left,
+            relY = e.pageY - parentOffset.top;
+        $(this).find('span.btn-bg').css({top:relY, left:relX})
+      });
+  });
+  
 };
