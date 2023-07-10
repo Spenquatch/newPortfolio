@@ -6,7 +6,7 @@ import dynamic from "next/dynamic";
 
 const Blog = () => {
   const typingAnimation = [
-    "<span class='typed-bread'><a href='#'>Home</a> / Blog</span>",
+    "<span className='typed-bread'><a href='#'>Home</a> / Blog</span>",
   ];
   return (
     <Layout>

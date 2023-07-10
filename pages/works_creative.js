@@ -15,7 +15,7 @@ const WorksCreative = () => {
 
   return (
     <Layout>
-      <CreativePageBanner pageName={"works"} extraClass="typed-subtitle" />
+      <CreativePageBanner pageName={"works"} extraclassName="typed-subtitle" />
       <div className="section works" id="section-portfolio">
         <div className="content">
           <ItemIsotope />

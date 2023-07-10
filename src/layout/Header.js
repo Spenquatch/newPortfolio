@@ -42,8 +42,8 @@ const Menu = () => {
                 </Link>
               </li>
               <li className="menu-item">
-                <Link href="/works">
-                  <a className={router.pathname == "/works" ? "active" : ""}>
+                <Link href="/work">
+                  <a className={router.pathname == "/work" ? "active" : ""}>
                     <span className="mask-lnk">Work</span>
                     <span className="mask-lnk mask-lnk-hover">Work</span>
                   </a>

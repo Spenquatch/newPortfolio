@@ -6,7 +6,7 @@ import dynamic from "next/dynamic";
 
 const BlogPost = () => {
   const typingAnimation = [
-    "<span class='typed-bread'><a href='#'>Design</a> / 20 July 2020</span>",
+    "<span className='typed-bread'><a href='#'>Design</a> / 20 July 2020</span>",
   ];
   return (
     <Layout>

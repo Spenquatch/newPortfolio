@@ -73,7 +73,8 @@ const ItemIsotope = () => {
     <Fragment>
       {/* portfolio filter */}
       <div className="filter-menu content-box">
-        <div className="filters">
+      <div className="name">Projects I built or worked on.</div>
+        {/* <div className="filters">
           <div className="btn-group">
             <label
               data-text="All"
@@ -144,36 +145,11 @@ const ItemIsotope = () => {
               Content
             </label>
           </div>
-        </div>
+        </div> */}
       </div>
       {/* portfolio items */}
       <div className="box-items portfolio-items">
-        <div className="box-item f-gallery">
-          {" "}
-          {/* add class "animate-to-page" if need animated transition to page and delete target="_blank" rel="noreferrer" */}
-          <div className="image">
-            <a href="#gallery-1" className="has-popup-gallery hover-animated">
-              <img src="images/work1.jpg" className="wp-post-image" alt="" />
-              <span className="info circle">
-                <span className="centrize full-width">
-                  <span className="vertical-center">
-                    <span className="icon fas fa-images" />
-                    <span className="desc">
-                      <span className="category">Gallery</span>
-                      <span className="name">Shot in Iceland</span>
-                    </span>
-                  </span>
-                </span>
-              </span>
-            </a>
-            <div id="gallery-1" className="mfp-hide">
-              <a href="images/work1.jpg" />
-              <a href="images/work2.jpg" />
-              <a href="images/work3.jpg" />
-              <a href="images/work4.jpg" />
-            </div>
-          </div>
-        </div>
+        
         <div className="box-item f-links">
           <div className="image">
             <a
@@ -260,51 +236,8 @@ const ItemIsotope = () => {
             </a>
           </div>
         </div>
-        <div className="box-item f-music">
-          <div className="image">
-            <a
-              href="https://w.soundcloud.com/player/?visual=true&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F221650664&show_artwork=true"
-              className="has-popup-music hover-animated"
-            >
-              <img src="images/work6.jpg" className="wp-post-image" alt="" />
-              <span className="info circle">
-                <span className="centrize full-width">
-                  <span className="vertical-center">
-                    <span className="icon fas fa-music" />
-                    <span className="desc">
-                      <span className="category">Music</span>
-                      <span className="name">Dark Bike</span>
-                    </span>
-                  </span>
-                </span>
-              </span>
-            </a>
-          </div>
-        </div>
-        <div className="box-item f-gallery">
-          <div className="image">
-            <a href="#gallery-2" className="has-popup-gallery hover-animated">
-              <img src="images/work5.jpg" className="wp-post-image" alt="" />
-              <span className="info circle">
-                <span className="centrize full-width">
-                  <span className="vertical-center">
-                    <span className="icon fas fa-images" />
-                    <span className="desc">
-                      <span className="category">Gallery</span>
-                      <span className="name">Undulating Space</span>
-                    </span>
-                  </span>
-                </span>
-              </span>
-            </a>
-            <div id="gallery-2" className="mfp-hide">
-              <a href="images/work5.jpg" />
-              <a href="images/work1.jpg" />
-              <a href="images/work2.jpg" />
-              <a href="images/work3.jpg" />
-            </div>
-          </div>
-        </div>
+        
+        
         <div className="box-item f-content">
           <div className="image">
             <a href="#popup-1" className="has-popup-media hover-animated">
