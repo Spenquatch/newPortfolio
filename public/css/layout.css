@@ -2738,6 +2738,12 @@
   font-weight: 500;
 }
 
+.section.works .filter-menu .name {
+  margin: 15px 0;
+  color: #eee;
+  font-weight: 500;
+}
+
 /* section service tablet */
 @media (max-width: 1199px) {
   .service-items {

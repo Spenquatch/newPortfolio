@@ -44,11 +44,11 @@ const ItemIsotope = () => {
     const circle = document.querySelectorAll(".circle");
     circle.forEach((e) => {
       e.addEventListener("mouseenter", (m) => {
-        console.log(
-          m.pageY,
-          e.offsetParent.offsetParent.offsetParent.offsetParent.offsetLeft,
-          e.offsetTop
-        );
+        // console.log(
+        //   m.pageY,
+        //   e.offsetParent.offsetParent.offsetParent.offsetParent.offsetLeft,
+        //   e.offsetTop
+        // );
         if (!e.getElementsByClassName("ink")[0]) {
           const span = document.createElement("span");
           span.classList.add("ink");
@@ -73,7 +73,7 @@ const ItemIsotope = () => {
     <Fragment>
       {/* portfolio filter */}
       <div className="filter-menu content-box">
-      <div className="name">Projects I built or worked on.</div>
+      <div className="name">Projects I built, managed, or worked on.</div>
         {/* <div className="filters">
           <div className="btn-group">
             <label
@@ -153,19 +153,19 @@ const ItemIsotope = () => {
         <div className="box-item f-links">
           <div className="image">
             <a
-              href="https://google.com/"
+              href="https://simssoftware.com"
               className="has-popup-link hover-animated"
               target="_blank"
               rel="noreferrer"
             >
-              <img src="images/work3.jpg" className="wp-post-image" alt="" />
+              <img src="images\work\simssoftwareWebsite.webp" alt="" />
               <span className="info circle">
                 <span className="centrize full-width">
                   <span className="vertical-center">
                     <span className="icon fas fa-link" />
                     <span className="desc">
-                      <span className="category">Links</span>
-                      <span className="name">Nike Red</span>
+                      <span className="category">Project Management - Development</span>
+                      <span className="name">SIMS Software</span>
                     </span>
                   </span>
                 </span>
@@ -173,138 +173,36 @@ const ItemIsotope = () => {
             </a>
           </div>
         </div>
-        <div className="box-item f-video">
+        <div className="box-item f-links">
           <div className="image">
             <a
-              href="https://www.youtube.com/embed/S4L8T2kFFck"
-              className="has-popup-video hover-animated"
+              href="https://online.dentalhospital.ie/"
+              className="has-popup-link hover-animated"
+              target="_blank"
+              rel="noreferrer"
             >
-              <img src="images/work2.jpg" className="wp-post-image" alt="" />
+              <img src="images\work\trinityCollege.webp" alt="" />
               <span className="info circle">
                 <span className="centrize full-width">
                   <span className="vertical-center">
-                    <span className="icon fas fa-video" />
+                    <span className="icon fas fa-link" />
                     <span className="desc">
-                      <span className="category">Video</span>
-                      <span className="name">Fertility of Some Plants</span>
+                      <span className="category">Project Management - Development</span>
+                      <span className="name">Trinity College Dublin</span>
                     </span>
                   </span>
                 </span>
               </span>
             </a>
           </div>
-        </div>
-        <div className="box-item f-image">
-          <div className="image">
-            <a
-              href="images/work4.jpg"
-              className="has-popup-image hover-animated"
-            >
-              <img src="images/work4.jpg" className="wp-post-image" alt="" />
-              <span className="info circle">
-                <span className="centrize full-width">
-                  <span className="vertical-center">
-                    <span className="icon fas fa-image" />
-                    <span className="desc">
-                      <span className="category">Image</span>
-                      <span className="name">Inspiration in Cap Haitian</span>
-                    </span>
-                  </span>
-                </span>
-              </span>
-            </a>
-          </div>
-        </div>
-        <div className="box-item f-image">
-          <div className="image">
-            <a
-              href="images/work7.jpg"
-              className="has-popup-image hover-animated"
-            >
-              <img src="images/work7.jpg" className="wp-post-image" alt="" />
-              <span className="info circle">
-                <span className="centrize full-width">
-                  <span className="vertical-center">
-                    <span className="icon fas fa-image" />
-                    <span className="desc">
-                      <span className="category">Image</span>
-                      <span className="name">Water and Shore</span>
-                    </span>
-                  </span>
-                </span>
-              </span>
-            </a>
-          </div>
-        </div>
+        </div>        
         
         
-        <div className="box-item f-content">
-          <div className="image">
-            <a href="#popup-1" className="has-popup-media hover-animated">
-              <img src="images/work8.jpg" className="wp-post-image" alt="" />
-              <span className="info circle">
-                <span className="centrize full-width">
-                  <span className="vertical-center">
-                    <span className="icon fas fa-plus" />
-                    <span className="desc">
-                      <span className="category">Content</span>
-                      <span className="name">Curved Ceiling Ribs</span>
-                    </span>
-                  </span>
-                </span>
-              </span>
-            </a>
-          </div>
-          <div id="popup-1" className="popup-box mfp-fade mfp-hide">
-            <div className="content">
-              <div
-                className="image"
-                style={{ backgroundImage: "url(images/work8.jpg)" }}
-              />
-              <div className="desc single-post-text">
-                <div className="category">Content</div>
-                <h4>Hand holding pyramid painting</h4>
-                <p>
-                  Now there is more fashion. There is no so-called trends. Now
-                  chase after anything not necessary — nor for fashionable color
-                  nor the shape, nor for style. Think about the content that you
-                  want to invest in a created object, and only then will form.
-                  The thing is your spirit. A spirit unlike forms hard copy.
-                </p>
-                <ul>
-                  <li>
-                    Now there is more fashion. There is no so-called trends.
-                  </li>
-                  <li>
-                    Now chase after anything not necessary — nor for fashionable
-                    color nor the shape, nor for style.
-                  </li>
-                  <li>
-                    Think about the content that you want to invest in a created
-                    object, and only then will form.
-                  </li>
-                  <li>
-                    The thing is your spirit. A spirit unlike forms hard copy.
-                  </li>
-                </ul>
-                <p>
-                  Now there is more fashion. There is no so-called trends. Now
-                  chase after anything not necessary — nor for fashionable color
-                  nor the shape, nor for style. Think about the content that you
-                  want to invest in a created object, and only then will form.
-                  The thing is your spirit. A spirit unlike forms hard copy.
-                </p>
-                <Link href="/works_single_1">
-                  <a className="btn hover-animated">
-                    <span className="circle" />
-                    <span className="lnk">View Project</span>
-                  </a>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+        
+        
+        
+        
+      </div> 
     </Fragment>
   );
 };
