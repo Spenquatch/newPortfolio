@@ -1,5 +1,11 @@
 import { Fragment } from "react";
+import { useEffect } from "react";
+import { buttonHover } from "../utils";
+
 const ContactSection = () => {
+  useEffect(() => {
+    buttonHover();
+  }, []);
   return (
     <Fragment>
       {/* Section Contacts Info */}
@@ -7,7 +13,7 @@ const ContactSection = () => {
         <div className="content">
           {/* title */}
           <div className="title">
-            <div className="title_inner">Contacts Info</div>
+            <div className="title_inner">Contact Info</div>
           </div>
           {/* contacts items */}
           <div className="service-items">
@@ -17,7 +23,7 @@ const ContactSection = () => {
                   <span className="fas fa-phone" />
                 </div>
                 <div className="name">Phone</div>
-                <div className="text">+ (231) 456 67 89</div>
+                <div className="text"><a href="tel:812-343-5020">812.343.5020</a></div>
               </div>
             </div>
             <div className="service-col">
@@ -27,8 +33,8 @@ const ContactSection = () => {
                 </div>
                 <div className="name">Email</div>
                 <div className="text">
-                  <a href="mailto:steve-pearson@gmail.com">
-                    steve-pearson@gmail.com
+                  <a href="mailto:spensermcconnell@gmail.com">
+                  spensermcconnell@gmail.com
                   </a>
                 </div>
               </div>
@@ -38,8 +44,8 @@ const ContactSection = () => {
                 <div className="icon">
                   <span className="fas fa-map-marker-alt" />
                 </div>
-                <div className="name">Address</div>
-                <div className="text">2621 W Pico Blvd, Los Angeles</div>
+                <div className="name">Location</div>
+                <div className="text">Indianapolis, Indiana</div>
               </div>
             </div>
             <div className="service-col">
@@ -60,11 +66,11 @@ const ContactSection = () => {
         <div className="content">
           {/* title */}
           <div className="title">
-            <div className="title_inner">Contacts Form</div>
+            <div className="title_inner">Contact Form</div>
           </div>
           {/* form */}
           <div className="contact_form content-box">
-            <form id="cform" method="post">
+            <form id="cform" method="POST" data-netlify="true">
               <div className="group-val">
                 <input type="text" name="name" placeholder="Name" />
               </div>
@@ -79,9 +85,9 @@ const ContactSection = () => {
                 />
               </div>
               <div className="group-bts">
-                <button type="submit" className="btn hover-animated">
-                  <span className="circle" />
-                  <span className="lnk">Send Message</span>
+                <button type="submit" className="btn btn-6">
+                  <span className="btn-text">Send Message</span>
+                  <span className="btn-bg"></span>
                 </button>
               </div>
             </form>
