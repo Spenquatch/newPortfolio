@@ -70,8 +70,13 @@ const ContactSection = () => {
           </div>
           {/* form */}
           <div className="contact_form content-box">
-            <form name="contact" id="cform" method="POST" data-netlify="true">
-            <input type="hidden" name="form-name" value="contactForm" />
+            <form 
+            name="contact v1" 
+            id="cform" 
+            method="post" 
+            data-netlify="true"
+            onSubmit="submit">
+            <input type="hidden" name="form-name" value="contact v1" />
               <div className="group-val">
                 <input type="text" name="name" placeholder="Name" />
               </div>
