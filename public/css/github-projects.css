@@ -4,17 +4,16 @@
 }
 
 .github-projects .github-card {
-  border-radius: 8px;
+  border-radius: 0;
   overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  background: #1a1a1a;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  transition: border-color 0.3s ease;
+  background: #101010;
   position: relative;
 }
 
 .github-projects .github-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  border-color: rgba(75, 255, 165, 0.2);
 }
 
 /* Remove all underlines from links in cards */
@@ -47,48 +46,17 @@
   opacity: 0 !important;
 }
 
-/* Show GitHub icon on hover */
-.github-projects .github-card .image::after {
-  content: '\f09b';
-  font-family: 'Font Awesome 5 Brands';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(0);
-  font-size: 48px;
-  color: rgba(255, 255, 255, 0.95);
-  transition: transform 0.3s ease;
-  pointer-events: none;
-  z-index: 10;
-  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
-}
-
-.github-projects .github-card:hover .image::after {
-  transform: translate(-50%, -50%) scale(1);
-}
-
-/* Add overlay on hover */
-.github-projects .github-card .image::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.7);
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  z-index: 5;
-  border-radius: 8px;
-}
-
-.github-projects .github-card:hover .image::before {
-  opacity: 1;
-}
 
 /* Ensure image div has position relative */
 .github-projects .image {
   position: relative;
+}
+
+/* External link icon hover effect */
+.github-projects .github-card:hover .external-link-icon {
+  color: #4bffa5 !important;
+  opacity: 1 !important;
+  font-size: 16px !important;
 }
 
 /* Better mobile responsiveness */

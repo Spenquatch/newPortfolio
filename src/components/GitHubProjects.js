@@ -1,6 +1,7 @@
 import { Fragment, useEffect, useState } from "react";
 import { parallax } from "../utils";
 import portfolioConfig from "../../portfolio.config.json";
+import manualProjects from "../../manual-projects.json";
 
 const GitHubProjects = () => {
   const [repos, setRepos] = useState([]);
@@ -84,19 +85,31 @@ const GitHubProjects = () => {
         (repo, index, self) => index === self.findIndex((r) => r.id === repo.id)
       );
 
-      // Separate pinned and unpinned repos
+      // Add manual projects from JSON file
+      const manualProjectsFormatted = manualProjects.projects.map(project => ({
+        ...project,
+        html_url: project.url,
+        stargazers_count: 0,
+        forks_count: 0,
+        isManual: true
+      }));
+
+      // Combine all projects (GitHub repos + manual projects)
+      const allProjects = [...uniqueRepos, ...manualProjectsFormatted];
+
+      // Separate into pinned and unpinned from ALL projects
       const pinned = [];
       const unpinned = [];
 
-      uniqueRepos.forEach((repo) => {
-        if (pinnedRepos && pinnedRepos.includes(repo.name)) {
-          pinned.push(repo);
+      allProjects.forEach((project) => {
+        if (pinnedRepos && pinnedRepos.includes(project.name)) {
+          pinned.push(project);
         } else {
-          unpinned.push(repo);
+          unpinned.push(project);
         }
       });
 
-      // Sort or randomize unpinned repos
+      // Sort or randomize unpinned projects
       let sortedUnpinned;
       if (randomizeOrder) {
         sortedUnpinned = shuffleArray(unpinned);
@@ -106,7 +119,7 @@ const GitHubProjects = () => {
         );
       }
 
-      // Combine pinned (at top) with unpinned repos
+      // Combine pinned (at top) with unpinned projects
       const finalRepos = [...pinned, ...sortedUnpinned].slice(
         0,
         maxRepos || 12
@@ -170,6 +183,9 @@ const GitHubProjects = () => {
       Rust: "#dea584",
       Vue: "#4fc08d",
       React: "#61dafb",
+      Web: "#4bffa5",
+      Tool: "#4bffa5",
+      API: "#4bffa5",
     };
     return colors[language] || "#8b949e";
   };
@@ -190,6 +206,9 @@ const GitHubProjects = () => {
       Swift: "fab fa-swift",
       React: "fab fa-react",
       Vue: "fab fa-vuejs",
+      Web: "fas fa-globe",
+      Tool: "fas fa-wrench",
+      API: "fas fa-plug",
       default: "fas fa-code",
     };
     return icons[language] || icons["default"];
@@ -273,14 +292,27 @@ const GitHubProjects = () => {
             color: "#bbb",
           }}
         >
-          AI tools and automation systems built to solve specific problems.
+          Experiments, projects, and tools I've built to make my workflows more efficient.
         </div>
         <div
           className="text"
           style={{ marginTop: "5px", fontSize: "14px", color: "#888" }}
         >
-          <i className="fab fa-github" style={{ marginRight: "6px" }}></i>
-          Showing {repos.length} public repositories • Updated live from GitHub
+          <a 
+            href="https://github.com/Spenquatch" 
+            target="_blank" 
+            rel="noreferrer"
+            style={{ 
+              color: "#888", 
+              textDecoration: "none",
+              transition: "color 0.3s ease"
+            }}
+            onMouseEnter={(e) => e.target.style.color = "#4bffa5"}
+            onMouseLeave={(e) => e.target.style.color = "#888"}
+          >
+            <i className="fab fa-github" style={{ marginRight: "6px" }}></i>
+          </a>
+          Showing {repos.length} projects • GitHub + Custom
         </div>
       </div>
 
@@ -295,123 +327,117 @@ const GitHubProjects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                {/* GitHub repo card with better design */}
+                {/* GitHub repo card matching service-item design */}
                 <div
-                  className="github-card-header"
+                  className="github-card-content"
                   style={{
-                    width: "100%",
-                    height: "140px",
-                    background: `linear-gradient(135deg, ${getLanguageColor(
-                      repo.language
-                    )}15 0%, ${getLanguageColor(repo.language)}30 100%)`,
-                    borderBottom: `2px solid ${getLanguageColor(
-                      repo.language
-                    )}`,
+                    padding: "35px 35px 0 35px",
+                    background: "#101010",
+                    height: "300px",
                     display: "flex",
                     flexDirection: "column",
-                    alignItems: "center",
-                    justifyContent: "center",
                     position: "relative",
-                    overflow: "hidden",
+                    alignItems: "center",
+                    textAlign: "center",
                   }}
                 >
-                  {/* Language icon */}
+                  {/* External link icon in top right */}
+                  <i
+                    className="fas fa-arrow-right external-link-icon"
+                    style={{
+                      position: "absolute",
+                      top: "15px",
+                      right: "15px",
+                      fontSize: "14px",
+                      color: "#666",
+                      opacity: "0.7",
+                      transform: "rotate(-45deg)",
+                      transition: "all 0.3s ease",
+                    }}
+                  ></i>
+                  
+                  {/* Language icon matching service icon */}
                   <i
                     className={getLanguageIcon(repo.language)}
                     style={{
                       fontSize: "36px",
-                      color: getLanguageColor(repo.language),
-                      opacity: "0.8",
+                      lineHeight: "normal",
+                      color: "#4bffa5",
+                      marginBottom: "15px",
                     }}
                   ></i>
-                </div>
-
-                {/* Card content */}
-                <div
-                  className="github-card-content"
-                  style={{
-                    padding: "15px",
-                    background: "#1a1a1a",
-                    minHeight: "140px",
-                    display: "flex",
-                    flexDirection: "column",
-                  }}
-                >
+                  
+                  {/* Repository name matching service name - bigger */}
                   <div
+                    className="repo-name"
                     style={{
-                      fontSize: "16px",
-                      fontWeight: "600",
-                      color: "#4bffa5",
-                      marginBottom: "8px",
+                      margin: "15px 0",
+                      color: "#eee",
+                      fontWeight: "500",
+                      fontSize: "18px",
                       whiteSpace: "nowrap",
                       overflow: "hidden",
                       textOverflow: "ellipsis",
                       textDecoration: "none",
+                      transition: "color 0.3s ease",
+                      width: "100%",
                     }}
                   >
                     {repo.name}
                   </div>
 
+                  {/* Description matching service text - smaller */}
                   <div
                     style={{
-                      fontSize: "13px",
-                      color: "#aaa",
-                      lineHeight: "1.4",
-                      marginBottom: "12px",
-                      minHeight: "40px",
-                      maxHeight: "40px",
+                      fontSize: "14px",
+                      color: "#999",
+                      lineHeight: "1.6",
+                      marginBottom: "15px",
                       overflow: "hidden",
                       display: "-webkit-box",
-                      WebkitLineClamp: 2,
+                      WebkitLineClamp: 3,
                       WebkitBoxOrient: "vertical",
                     }}
                   >
                     {truncateDescription(repo.description)}
                   </div>
 
-                  {/* Stats row */}
+                  {/* Minimal stats row */}
                   <div
                     style={{
                       display: "flex",
                       justifyContent: "space-between",
                       alignItems: "center",
                       fontSize: "11px",
-                      color: "#777",
-                      borderTop: "1px solid #2a2a2a",
-                      paddingTop: "10px",
+                      color: "#666",
+                      borderTop: "1px solid rgba(255, 255, 255, 0.05)",
+                      paddingTop: "20px",
+                      paddingBottom: "20px",
                       marginTop: "auto",
+                      width: "100%",
                     }}
                   >
                     <div
                       style={{
                         display: "flex",
-                        gap: "12px",
+                        gap: "15px",
                         alignItems: "center",
                       }}
                     >
                       {repo.language && (
-                        <span style={{ display: "flex", alignItems: "center" }}>
-                          <span
-                            style={{
-                              width: "11px",
-                              height: "11px",
-                              borderRadius: "50%",
-                              backgroundColor: getLanguageColor(repo.language),
-                              marginRight: "4px",
-                              display: "inline-block",
-                              verticalAlign: "middle",
-                            }}
-                          ></span>
-                          <span style={{ lineHeight: "1" }}>
-                            {repo.language}
-                          </span>
+                        <span style={{ 
+                          fontSize: "12px",
+                          fontWeight: "600",
+                          color: "#999"
+                        }}>
+                          {repo.language}
                         </span>
                       )}
                       {repo.stargazers_count > 0 && (
-                        <span style={{ display: "flex", alignItems: "center" }}>
+                        <span style={{ display: "flex", alignItems: "center", color: "#888" }}>
                           <i
                             className="fas fa-star"
-                            style={{ marginRight: "3px", fontSize: "11px" }}
+                            style={{ marginRight: "4px", fontSize: "10px", color: "#666" }}
                           ></i>
                           <span style={{ lineHeight: "1" }}>
                             {repo.stargazers_count}
@@ -419,10 +445,10 @@ const GitHubProjects = () => {
                         </span>
                       )}
                       {repo.forks_count > 0 && (
-                        <span style={{ display: "flex", alignItems: "center" }}>
+                        <span style={{ display: "flex", alignItems: "center", color: "#888" }}>
                           <i
                             className="fas fa-code-branch"
-                            style={{ marginRight: "3px", fontSize: "11px" }}
+                            style={{ marginRight: "4px", fontSize: "10px", color: "#666" }}
                           ></i>
                           <span style={{ lineHeight: "1" }}>
                             {repo.forks_count}
@@ -430,7 +456,11 @@ const GitHubProjects = () => {
                         </span>
                       )}
                     </div>
-                    <span style={{ fontSize: "10px", color: "#888" }}>
+                    <span style={{ 
+                      fontSize: "12px",
+                      fontWeight: "600",
+                      color: "#999"
+                    }}>
                       {formatDate(repo.updated_at)}
                     </span>
                   </div>

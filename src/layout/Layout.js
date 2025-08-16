@@ -21,7 +21,7 @@ const Layout = ({ children, noHeader }) => {
       <ImageView />
       <ImageGallery />
       <ContentModal />
-      <Preloader />
+      {/* <Preloader /> */}
       {/* Container */}
       <div className="container">
         {/* Cursor */}
@@ -36,8 +36,8 @@ const Layout = ({ children, noHeader }) => {
         </div>
         {/* Footer */}
         <Footer />
-        {/* Lines */}
-        <div className="lines">
+        {/* Lines - DISABLED */}
+        {/* <div className="lines">
           <div className="content">
             <div className="line-col" />
             <div className="line-col" />
@@ -45,7 +45,7 @@ const Layout = ({ children, noHeader }) => {
             <div className="line-col" />
             <div className="line-col" />
           </div>
-        </div>
+        </div> */}
       </div>
     </Fragment>
   );

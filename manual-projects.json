@@ -1,0 +1,13 @@
+{
+  "projects": [
+    {
+      "id": "cfa",
+      "name": "FSU - College of Fine Arts",
+      "description": "Led the development and management of a WordPress multisite installation for Florida State University’s College of Fine Arts, spanning 9 sub-sites. Successfully launched the platform end-to-end with zero issues, ensuring a smooth rollout across all departments.",
+      "url": "https://cfa.fsu.edu",
+      "language": "Web",
+      "type": "manual",
+      "updated_at": "2024-01-15T00:00:00Z"
+    }
+  ]
+}
