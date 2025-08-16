@@ -306,7 +306,7 @@
 }
 
 .hover-masks a.active .mask-lnk {
-  color:#4bffa5;
+  color: #4bffa5;
 }
 
 .hover-masks .mask-lnk.mask-lnk-hover,
@@ -334,7 +334,7 @@
   -webkit-transform: translateY(0);
   -moz-transform: translateY(0);
   -o-transform: translateY(0);
-  color:#4bffa5
+  color: #4bffa5;
 }
 
 /* header active */
@@ -556,6 +556,7 @@
   font-size: 16px;
   background: #101010;
   border: 1px solid rgba(255, 255, 255, 0.07);
+  min-height: 260px;
 }
 
 .section #section-services .content-box {
@@ -639,7 +640,7 @@
   position: absolute;
   left: calc(20% + 35px);
   bottom: 50px;
-  max-width: 560px;
+  max-width: 850px;
   font-size: 20px;
   font-weight: 300;
   color: #fff;
@@ -667,9 +668,10 @@
 .section.started .started-content .typed-bread {
   margin-top: -45px;
   position: absolute;
-  top: 50%;
-  left: 0;
-  width: 100%;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70%;
   display: block;
   font-size: 90px;
   line-height: 90px;
@@ -792,7 +794,7 @@
   top: auto;
   bottom: 50px;
   width: auto;
-  max-width: 560px;
+  max-width: 850px;
   font-size: 20px;
   line-height: 1.5;
   font-weight: 400;
@@ -1327,7 +1329,7 @@
 }
 
 .about .desc strong {
-  color:#4bffa5;
+  color: #4bffa5;
   font-weight: normal;
 }
 
@@ -1386,7 +1388,7 @@
 .resume-items .resume-item {
   position: relative;
   margin: 70px 0 0 0;
-  border-right:0px;
+  border-right: 0px;
 }
 
 .resume-items .resume-item:first-child {
@@ -1413,12 +1415,12 @@
 }
 
 .resume-item .text ul li {
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
 
 .resume-item .text ul li strong {
-  color:#4bffa5;
-  font-weight:normal;
+  color: #4bffa5;
+  font-weight: normal;
 }
 
 /* section resume tablet */
@@ -1518,7 +1520,7 @@
   display: inline-block;
   vertical-align: top;
   width: 50%;
-  min-height: 40px;  
+  min-height: 40px;
 }
 
 .skills.list ul li .name {
@@ -1545,7 +1547,7 @@
 }
 
 #section-tech-skills-know .skills.list ul li .name:before {
-  content: "\f120" !important; 
+  content: "\f120" !important;
 }
 
 .skills.list ul li .progress {

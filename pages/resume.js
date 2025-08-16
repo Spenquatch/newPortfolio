@@ -1,5 +1,4 @@
 import About from "../src/components/About";
-import Clients from "../src/components/Clients";
 import { DefaultPageBanner } from "../src/components/PageBanner";
 import ResumeSection from "../src/components/ResumeSection";
 import ResumeSectionEducation from "../src/components/ResumeSectionEducation";
@@ -28,8 +27,6 @@ const Resume = () => {
       {/* Section Knowledge Skills */}
       <KnowledgeSkills />
       <TechnicalSkills />
-      {/* Section Clients */}
-      <Clients />
     </Layout>
   );
 };

@@ -4,84 +4,84 @@ const Service = () => {
       <div className="content">
         {/* title */}
         <div className="title">
-          <div className="title_inner">Services</div>
+          <div className="title_inner">How I Help</div>
         </div>
         {/* service items */}
         <div className="service-items">
           <div className="service-col">
             <div className="service-item content-box">
               <div className="icon">
-                <span className="fas fa-code" />
+                <span className="fas fa-project-diagram" />
               </div>
-              <div className="name">Full Stack Web Development</div>
+              <div className="name">AI Systems & Architecture</div>
               <div className="text">
-              Develop comprehensive solutions for creating robust and dynamic websites and web applications. From crafting intuitive front-end user interfaces to developing efficient back-end server logic, I ensure seamless integration of all layers of web development.
+                End-to-end design of AI systems that use real context and plug into your tools. Clear boundaries, reliable data flow, measurable outcomes.
               </div>
             </div>
           </div>
           <div className="service-col">
             <div className="service-item content-box">
               <div className="icon">
-                <span className="fas fa-clipboard-check" />
+                <span className="fas fa-robot" />
               </div>
-              <div className="name">Technical Project Management</div>
+              <div className="name">Agent Workflows & Automation</div>
               <div className="text">
-              Careful oversight and expert direction of technology-focused projects, ensuring they are executed within scope, timeframes and budget, and seamlessly aligned with technical specifications and overarching business objectives.
+                Task-specific agents that handle the boring stuff, escalate when needed, and leave a clean audit trail.
               </div>
             </div>
           </div>
           <div className="service-col">
             <div className="service-item content-box">
               <div className="icon">
-                <span className="fas fa-palette" />
+                <span className="fas fa-bolt" />
               </div>
-              <div className="name">UI/UX Design</div>
+              <div className="name">Rapid Prototyping & Product Experiments</div>
               <div className="text">
-                Designing user interfaces and user experiences that are visually appealing and user-friendly. This includes creating rapid prototypes to test and validate design concepts before full-scale development.
+                Fast builds to validate ideas, from clickable demos to working internal tools. Ship, learn, iterate.
               </div>
             </div>
           </div>          
           <div className="service-col">
             <div className="service-item content-box">
               <div className="icon">
-                <span className="fas fa-ad" />
+                <span className="fas fa-tasks" />
               </div>
-              <div className="name">Digital Marketing and Brand Development</div>
+              <div className="name">Technical Product Management</div>
               <div className="text">
-              Developing and executing innovative digital marketing campaigns, including social media marketing, to enhance brand visibility and engagement. This also includes creating brand-specific logos and graphics.
+                Translate strategy into shipped work. Roadmaps, prioritization, delivery that holds up under pressure.
               </div>
             </div>
           </div>
           <div className="service-col">
             <div className="service-item content-box">
               <div className="icon">
-                <span className="fas fa-terminal" />
+                <span className="fas fa-shield-alt" />
               </div>
-              <div className="name">Custom Software Development</div>
+              <div className="name">Codebase & Infra Audits</div>
               <div className="text">
-                Utilizing modern technologies and frameworks such as ReactJS for custom software development. This includes designing, coding, integration testing, and debugging to ensure the software meets client requirements.
+                Practical audits that flag risk, uncover leverage points, and map a path to "this actually works."
               </div>
             </div>
           </div>
           <div className="service-col">
             <div className="service-item content-box">
               <div className="icon">
-                <span className="fas fa-sitemap" />
+                <span className="fas fa-tools" />
               </div>
-              <div className="name">Content Management and Hosting Services</div>
+              <div className="name">Internal Tools & Platforms</div>
               <div className="text">
-                Content management solutions including hosting, domain management, and email services, ensuring that clients&apos; websites are secure and perform optimally.
+                Build or harden the systems your team lives in, from dashboards to CI/CD to the glue code that keeps it moving.
               </div>
             </div>
           </div>
           <div className="service-col">
             <div className="service-item content-box">
               <div className="icon">
-                <span className="fas fa-tag" />
+                <span className="fas fa-chalkboard-teacher" />
               </div>
-              <div className="name">E-Commerce Solutions</div>
+              <div className="name">AI Enablement & Training</div>
               <div className="text">
-                Building and maintaining e-commerce websites, including setting up online stores, payment gateways, and ensuring security for transactions.
+                Hands-on workshops and playbooks so teams can use AI well, not just talk about it.
               </div>
             </div>
           </div>

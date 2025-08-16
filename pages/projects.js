@@ -2,24 +2,25 @@ import { DefaultPageBanner } from "../src/components/PageBanner";
 import Layout from "../src/layout/Layout";
 
 import dynamic from "next/dynamic";
-const ItemIsotope = dynamic(() => import("../src/components/ItemIsotope"), {
+// Dynamic import with SSR disabled for GitHub API call
+const GitHubProjects = dynamic(() => import("../src/components/GitHubProjects"), {
   ssr: false,
 });
 
-const Work = () => {
+const Projects = () => {
   const typingAnimation = [
-    "<span class='typed-bread'><a href='#'>Home</a> / Work</span>",
+    "<span class='typed-bread'><a href='#'>Home</a> / Projects</span>",
   ];
   return (
     <Layout>
-      <DefaultPageBanner pageName={"Work"} typingData={typingAnimation} />
+      <DefaultPageBanner pageName={"Projects"} typingData={typingAnimation} />
       <div className="section works" id="next_section">
         <div className="content">
-          <ItemIsotope />
+          <GitHubProjects />
           <div className="clear" />
         </div>
       </div>
     </Layout>
   );
 };
-export default Work;
+export default Projects;

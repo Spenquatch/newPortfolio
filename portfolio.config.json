@@ -1,0 +1,19 @@
+{
+  "pinnedRepos": ["ask-claude"],
+  "displayRepos": [
+    "ask-claude",
+    "spec",
+    "contrextCue",
+    "FlowSpace",
+    "oneclick-email"
+  ],
+  "hideRepos": [
+    "newPortfolio",
+    "CoinCorrelations",
+    "temp",
+    "spenser-mcconnell"
+  ],
+  "useAllowlist": false,
+  "maxRepos": 12,
+  "randomizeOrder": true
+}

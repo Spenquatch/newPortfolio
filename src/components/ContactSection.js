@@ -23,7 +23,7 @@ const ContactSection = () => {
                   <span className="fas fa-phone" />
                 </div>
                 <div className="name">Phone</div>
-                <div className="text"><a href="tel:812-343-5020">812.343.5020</a></div>
+                <div className="text"><a href="tel:812-343-5020">812-343-5020</a></div>
               </div>
             </div>
             <div className="service-col">
@@ -54,7 +54,7 @@ const ContactSection = () => {
                   <span className="fas fa-user-tie" />
                 </div>
                 <div className="name">Freelance Available</div>
-                <div className="text">I am available for Freelance hire</div>
+                <div className="text">Available for select projects</div>
               </div>
             </div>
           </div>
@@ -71,13 +71,13 @@ const ContactSection = () => {
           {/* form */}
           <div className="contact_form content-box">
             <form 
-            name="contact v1" 
+            name="spensermcconnell-contact" 
             id="cform" 
             method="post" 
             data-netlify="true"
             data-netlify-honeypot="bot-field"
             onSubmit="submit">
-            <input type="hidden" name="form-name" value="contact v1" />
+            <input type="hidden" name="form-name" value="spensermcconnell-contact" />
             <div hidden>
               <input name="bot-field"/>
             </div>
@@ -102,7 +102,7 @@ const ContactSection = () => {
               </div>
             </form>
             <div className="alert-success">
-              <p>Thanks, your message is sent successfully.</p>
+              <p>Thanks—I'll get back to you soon.</p>
             </div>
           </div>
         </div>

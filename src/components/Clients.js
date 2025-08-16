@@ -11,29 +11,36 @@ const Clients = () => {
           <div className="clients-items">
             <div className="clients-col">
               <div className="clients-item">
-                <a target="_blank" rel="noreferrer" href="#">
-                <img src="images/logos/humana.png" alt="" />
+                <a target="_blank" rel="noreferrer" href="https://unincorporated.com">
+                <img src="images/logos/uninc.png" alt="UNINCORPORATED" />
                 </a>
               </div>
             </div> 
             <div className="clients-col">
               <div className="clients-item">
-                <a target="_blank" rel="noreferrer" href="#">
-                <img src="images/logos/ims.png" alt="" />
+                <a target="_blank" rel="noreferrer" href="https://acadium.com">
+                <img src="images/logos/acadium.png" alt="Acadium" />
+                </a>
+              </div>
+            </div>
+            <div className="clients-col">
+              <div className="clients-item">
+                <a target="_blank" rel="noreferrer" href="https://humana.com">
+                <img src="images/logos/humana.png" alt="Humana" />
+                </a>
+              </div>
+            </div>
+            <div className="clients-col">
+              <div className="clients-item">
+                <a target="_blank" rel="noreferrer" href="https://mkragency.com">
+                <img src="images/logos/mkr.png" alt="MKR" />
                 </a>
               </div>
             </div>
             <div className="clients-col">
               <div className="clients-item">
                 <a target="_blank" rel="noreferrer" href="#">
-                <img src="images/logos/belray.png" alt="" />
-                </a>
-              </div>
-            </div>
-            <div className="clients-col">
-              <div className="clients-item">
-                <a target="_blank" rel="noreferrer" href="#">
-                <img src="images/logos/hoosierlottery.png" alt="" />
+                <img src="images/logos/kings.png" alt="King's Window Tint" />
                 </a>
               </div>
             </div>           

@@ -11,9 +11,9 @@ const ResumeSection = () => {
           <div className="service-col">
             <div className="service-item content-box">
               <div className="icon">
-                <span className="fas fa-laptop-code" />
+                <span className="fas fa-graduation-cap" />
               </div>
-              <div className="name">Ivy Tech Community College | 2011-2015</div>
+              <div className="name">Ivy Tech Community College | 2013-2015</div>
               <div className="text">
               Web Design & Development 
               </div>
@@ -22,11 +22,11 @@ const ResumeSection = () => {
           <div className="service-col">
             <div className="service-item content-box">
               <div className="icon">
-                <span className="fas fa-graduation-cap" />
+                <span className="fas fa-book-open" />
               </div>
-              <div className="name">Penn Foster High School | 2003-2007</div>
+              <div className="name">Continuous Learning: AI/ML Systems</div>
               <div className="text">
-              High School Diploma
+              Self-directed learning in AI/ML systems, LLMs, and automation
               </div>
             </div>
           </div>         
