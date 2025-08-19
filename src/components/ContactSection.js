@@ -73,10 +73,10 @@ const ContactSection = () => {
             <form 
             name="spensermcconnell-contact" 
             id="cform" 
-            method="post" 
+            method="POST" 
+            action="/contacts?success=true"
             data-netlify="true"
-            data-netlify-honeypot="bot-field"
-            onSubmit="submit">
+            data-netlify-honeypot="bot-field">
             <input type="hidden" name="form-name" value="spensermcconnell-contact" />
             <div hidden>
               <input name="bot-field"/>
