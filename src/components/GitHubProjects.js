@@ -50,7 +50,7 @@ const GitHubProjects = () => {
       // Try to fetch org repos, but don't fail if it doesn't work
       try {
         const orgResponse = await fetch(
-          "https://api.github.com/orgs/atomize-codes/repos?sort=updated&per_page=30"
+          "https://api.github.com/orgs/atomize-hq/repos?sort=updated&per_page=30"
         );
         if (orgResponse.ok) {
           orgData = await orgResponse.json();
@@ -204,6 +204,7 @@ const GitHubProjects = () => {
       Ruby: "fas fa-gem",
       PHP: "fab fa-php",
       Swift: "fab fa-swift",
+      Rust: "devicon-rust-plain", // Using Devicon for Rust
       React: "fab fa-react",
       Vue: "fab fa-vuejs",
       Web: "fas fa-globe",

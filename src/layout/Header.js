@@ -8,7 +8,7 @@ const Menu = () => {
   return (
     <Fragment>
       <div className="logo hover-masks-logo">
-        <a     href="downloadFiles/spenserMcconnellResume2023.pdf"
+        <a     href="downloadFiles/spenserMcconnellResume2025.pdf"
                target="_blank"
                download
                rel="noreferrer" >

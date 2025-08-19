@@ -1304,6 +1304,12 @@
 .section.about .image img {
   width: 100%;
   height: auto;
+  filter: brightness(0.7) contrast(1.1);
+  transition: filter 0.3s ease;
+}
+
+.section.about .image img:hover {
+  filter: brightness(0.85) contrast(1.05);
 }
 
 .section.about .desc {
