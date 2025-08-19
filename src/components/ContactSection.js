@@ -102,7 +102,7 @@ const ContactSection = () => {
               </div>
             </form>
             <div className="alert-success">
-              <p>Thanks—I'll get back to you soon.</p>
+              <p>Thanks—I&apos;ll get back to you soon.</p>
             </div>
           </div>
         </div>

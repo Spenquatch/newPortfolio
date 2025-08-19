@@ -65,7 +65,7 @@ const Service = () => {
               <div className="name">Codebase & Infra Audits</div>
               <div className="text">
                 Practical audits that flag risk, uncover leverage points, and
-                map a path to "this actually works."
+                map a path to &quot;this actually works.&quot;
               </div>
             </div>
           </div>
