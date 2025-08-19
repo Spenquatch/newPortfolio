@@ -293,7 +293,7 @@ const GitHubProjects = () => {
             color: "#bbb",
           }}
         >
-          Experiments, projects, and tools I've built to make my workflows more efficient.
+          Experiments, projects, and tools I&apos;ve built to make my workflows more efficient.
         </div>
         <div
           className="text"
