@@ -7,13 +7,13 @@ export const DesignSkills = () => {
       <div className="content">
         {/* title */}
         <div className="title">
-          <div className="title_inner">Design Skills</div>
+          <div className="title_inner">Systems & Product Skills</div>
         </div>
         {/* skills items */}
         <div className="skills percent content-box">
           <ul>
             <li>
-              <div className="name">Web Design</div>
+              <div className="name">System Design</div>
               <div className="progress ">
                 <div className="percentage" style={{ width: "90%" }}>
                   <span className="percent">90%</span>
@@ -21,26 +21,26 @@ export const DesignSkills = () => {
               </div>
             </li>
             <li>
-              <div className="name">Illustrations</div>
-              <div className="progress ">
-                <div className="percentage" style={{ width: "70%" }}>
-                  <span className="percent">70%</span>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="name">Photoshop</div>
-              <div className="progress ">
-                <div className="percentage" style={{ width: "95%" }}>
-                  <span className="percent">95%</span>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="name">Graphic Design</div>
+              <div className="name">Product Strategy</div>
               <div className="progress ">
                 <div className="percentage" style={{ width: "85%" }}>
                   <span className="percent">85%</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div className="name">Information Architecture</div>
+              <div className="progress ">
+                <div className="percentage" style={{ width: "80%" }}>
+                  <span className="percent">80%</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div className="name">UX for Internal Tools</div>
+              <div className="progress ">
+                <div className="percentage" style={{ width: "80%" }}>
+                  <span className="percent">80%</span>
                 </div>
               </div>
             </li>
@@ -61,13 +61,13 @@ export const LanguagesSkills = () => {
       <div className="content">
         {/* title */}
         <div className="title">
-          <div className="title_inner">Languages Skills</div>
+          <div className="title_inner">Communication</div>
         </div>
         {/* skills items */}
         <div className="skills percent content-box">
           <ul>
             <li>
-              <div className="name">English</div>
+              <div className="name">Technical Writing</div>
               <div className="progress">
                 <div className="percentage" style={{ width: "90%" }}>
                   <span className="percent">90%</span>
@@ -75,23 +75,23 @@ export const LanguagesSkills = () => {
               </div>
             </li>
             <li>
-              <div className="name">German</div>
+              <div className="name">Stakeholder Communication</div>
               <div className="progress">
-                <div className="percentage" style={{ width: "70%" }}>
-                  <span className="percent">70%</span>
+                <div className="percentage" style={{ width: "90%" }}>
+                  <span className="percent">90%</span>
                 </div>
               </div>
             </li>
             <li>
-              <div className="name">Italian</div>
+              <div className="name">Mentoring & Team Leadership</div>
               <div className="progress">
-                <div className="percentage" style={{ width: "55%" }}>
-                  <span className="percent">55%</span>
+                <div className="percentage" style={{ width: "85%" }}>
+                  <span className="percent">85%</span>
                 </div>
               </div>
             </li>
             <li>
-              <div className="name">French</div>
+              <div className="name">Workshops & Training</div>
               <div className="progress">
                 <div className="percentage" style={{ width: "85%" }}>
                   <span className="percent">85%</span>
@@ -111,13 +111,13 @@ export const CodingSkills = () => {
       <div className="content">
         {/* title */}
         <div className="title">
-          <div className="title_inner">Coding Skills</div>
+          <div className="title_inner">Core Tech</div>
         </div>
         {/* skills items */}
         <div className="skills circles content-box">
           <ul>
             <li>
-              <div className="name">WordPress</div>
+              <div className="name">Python</div>
               <div className="progress p90">
                 {" "}
                 {/* p90 = 90% circle fill color */}
@@ -132,14 +132,14 @@ export const CodingSkills = () => {
               </div>
             </li>
             <li>
-              <div className="name">PHP / MYSQL</div>
-              <div className="progress p75">
+              <div className="name">TypeScript / Node</div>
+              <div className="progress p90">
                 {" "}
-                {/* p75 = 75% circle fill color */}
+                {/* p90 = 90% circle fill color */}
                 <div className="percentage">
-                  <span className="percent">75%</span>
+                  <span className="percent">90%</span>
                 </div>
-                <span>75%</span>
+                <span>90%</span>
                 <div className="slice">
                   <div className="bar"></div>
                   <div className="fill"></div>
@@ -147,7 +147,7 @@ export const CodingSkills = () => {
               </div>
             </li>
             <li>
-              <div className="name">Angular / JavaScript</div>
+              <div className="name">React / Next.js</div>
               <div className="progress p85">
                 {" "}
                 {/* p85 = 85% circle fill color */}
@@ -162,14 +162,14 @@ export const CodingSkills = () => {
               </div>
             </li>
             <li>
-              <div className="name">HTML / CSS</div>
-              <div className="progress p95">
+              <div className="name">Docker / Kubernetes</div>
+              <div className="progress p80">
                 {" "}
-                {/* p95 = 95% circle fill color */}
+                {/* p80 = 80% circle fill color */}
                 <div className="percentage">
-                  <span className="percent">95%</span>
+                  <span className="percent">80%</span>
                 </div>
-                <span>95%</span>
+                <span>80%</span>
                 <div className="slice">
                   <div className="bar"></div>
                   <div className="fill"></div>
@@ -194,86 +194,77 @@ export const KnowledgeSkills = () => {
         <div className="skills list content-box">
           <ul>
             <li>
-              <div className="name">Front-End Development</div>
+              <div className="name">Systems thinking</div>
             </li>
             <li>
-              <div className="name">Software/Product Development</div>
+              <div className="name">Shipping fast safely</div>
             </li>
             <li>
-              <div className="name">Project Management</div>
+              <div className="name">Product sense</div>
             </li>
             <li>
-              <div className="name">Brand Development</div>
+              <div className="name">Technical audits</div>
             </li>
             <li>
-              <div className="name">Digital Advertising</div>
+              <div className="name">Architecture diagrams that matter</div>
             </li>
             <li>
-              <div className="name">Digital & Social Media Marketing</div>
+              <div className="name">Agent design</div>
             </li>
             <li>
-              <div className="name">E-Commerce & Sales Strategy</div>
+              <div className="name">Prompt and tool orchestration</div>
             </li>
             <li>
-              <div className="name">Customer Experience Management</div>
+              <div className="name">Data pipeline hygiene</div>
             </li>
             <li>
-              <div className="name">User Experience (UX) Design</div>
+              <div className="name">Real-time streaming basics</div>
             </li>    
             <li>
-              <div className="name">User Interface (UI) Design </div>
+              <div className="name">API design</div>
             </li>                        
             <li>
-              <div className="name">Rapid Prototyping</div>
+              <div className="name">Documentation people read</div>
             </li>  
             <li>
-              <div className="name">Programming & Scripting</div>
+              <div className="name">Clear roadmaps</div>
             </li> 
             <li>
-              <div className="name">Networking/System Administration</div>
+              <div className="name">Prioritization</div>
             </li>  
             <li>
-              <div className="name">Troubleshooting & Debugging</div>
+              <div className="name">Developer experience (DX)</div>
             </li>  
             <li>
-              <div className="name">Integration Testing</div>
+              <div className="name">Observability basics</div>
             </li>
             <li>
-              <div className="name">A/B Testing</div>
+              <div className="name">Security-minded defaults</div>
             </li>   
             <li>
-              <div className="name">Installation & Configuration</div>
+              <div className="name">Vendor evaluation</div>
             </li> 
             <li>
-              <div className="name">Market Research & Analysis</div>
+              <div className="name">Cost awareness</div>
             </li>
             <li>
-              <div className="name">Lean & Agile Methodology</div>
+              <div className="name">Stakeholder alignment</div>
             </li>
             <li>
-              <div className="name">Cross-Functional Team Leadership</div>
+              <div className="name">Workshop facilitation</div>
             </li>   
             <li>
-              <div className="name">Multidisciplinary Collaboration</div>
+              <div className="name">Mentoring engineers</div>
             </li> 
             <li>
-              <div className="name">Interpersonal Communication</div>
+              <div className="name">Hands-on prototyping</div>
             </li>
             <li>
-              <div className="name">Staff Training & Development</div>
+              <div className="name">Glue code and integrations</div>
             </li>  
             <li>
-              <div className="name">Coaching & Mentoring</div>
-            </li>                                        
-            <li>
-              <div className="name">Complex Problem Solving</div>
-            </li>    
-            <li>
-              <div className="name">Analytical Skills</div>
-            </li>                                    
-            <li>
-              <div className="name">Time Management </div>
-            </li>                                                                                                                                                                                                                                                            
+              <div className="name">Cutting scope without losing value</div>
+            </li>                                                                                                                                                                                                                                                          
           </ul>
         </div>
       </div>
@@ -293,71 +284,95 @@ export const TechnicalSkills = () => {
         <div className="skills list content-box">
           <ul>
             <li>
-              <div className="name">HTML5</div>
+              <div className="name">Python</div>
             </li>
             <li>
-              <div className="name">CSS / SASS</div>
+              <div className="name">TypeScript</div>
             </li>
             <li>
-              <div className="name">JavaScript</div>
+              <div className="name">Node.js</div>
             </li>
             <li>
-              <div className="name">jQuery</div>
+              <div className="name">React / Next.js</div>
             </li>
             <li>
-              <div className="name">ReactJS</div>
+              <div className="name">Flask / FastAPI</div>
             </li>
             <li>
-              <div className="name">NextJS</div>
+              <div className="name">LangChain</div>
             </li>
             <li>
-              <div className="name">NodeJS</div>
+              <div className="name">Rasa / spaCy</div>
             </li>
             <li>
-              <div className="name">PHP</div>
+              <div className="name">OpenAI / Anthropic APIs</div>
             </li>
             <li>
-              <div className="name">WordPress</div>
+              <div className="name">Llama / HF Transformers</div>
             </li> 
             <li>
-              <div className="name">MySQL</div>
+              <div className="name">Weaviate</div>
             </li> 
             <li>
-              <div className="name">Git / GitHub </div>
+              <div className="name">Postgres</div>
             </li>                               
             <li>
-              <div className="name">REST API</div>
+              <div className="name">Redis</div>
             </li>        
             <li>
-              <div className="name">JSON</div>
+              <div className="name">RabbitMQ / Bull</div>
             </li>   
             <li>
-              <div className="name">Python</div>
+              <div className="name">WebSockets / WebRTC</div>
             </li>     
             <li>
-              <div className="name">CLI</div>
+              <div className="name">LiveKit / mediasoup</div>
             </li>
             <li>
-              <div className="name">VS Code</div>
+              <div className="name">Docker / Compose</div>
             </li> 
             <li>
-              <div className="name">OpenAI</div>
+              <div className="name">Kubernetes</div>
             </li>                                   
             <li>
-              <div className="name">Adobe Creative Suite</div>
+              <div className="name">Azure / AWS</div>
             </li>   
             <li>
-              <div className="name">Figma</div>
+              <div className="name">GitHub Actions</div>
             </li>   
             <li>
-              <div className="name">Facebook Ads Manager</div>
+              <div className="name">NGINX / Traefik</div>
             </li>  
             <li>
-              <div className="name">Windows, Mac OS, & Linux</div>
+              <div className="name">Terraform / Packer</div>
             </li>             
             <li>
-              <div className="name">MS Office Suite</div>
-            </li>                                                                                                                          
+              <div className="name">Bash scripting</div>
+            </li>
+            <li>
+              <div className="name">Vite / esbuild / Webpack</div>
+            </li>
+            <li>
+              <div className="name">ESLint / Prettier / black / flake8</div>
+            </li>
+            <li>
+              <div className="name">Selenium / Puppeteer</div>
+            </li>
+            <li>
+              <div className="name">Cloudflare</div>
+            </li>
+            <li>
+              <div className="name">Signoz basic metrics</div>
+            </li>
+            <li>
+              <div className="name">FFmpeg / GStreamer</div>
+            </li>
+            <li>
+              <div className="name">ClickUp / Notion for ops</div>
+            </li>
+            <li>
+              <div className="name">Zapier / n8n / Make</div>
+            </li>                                                                                                                       
           </ul>
         </div>
       </div>

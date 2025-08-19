@@ -8,7 +8,7 @@ const Menu = () => {
   return (
     <Fragment>
       <div className="logo hover-masks-logo">
-        <a     href="downloadFiles/spenserMcconnellResume2023.pdf"
+        <a     href="downloadFiles/spenserMcconnellResume2025.pdf"
                target="_blank"
                download
                rel="noreferrer" >
@@ -26,7 +26,7 @@ const Menu = () => {
           <div className="menu-topmenu-container">
             <ul className="menu">
               <li className="menu-item">
-                <Link href="/">
+                <Link href="/" legacyBehavior>
                   <a className={router.pathname == "/" ? "active" : ""}>
                     <span className="mask-lnk">Home</span>
                     <span className="mask-lnk mask-lnk-hover">Home</span>
@@ -34,7 +34,7 @@ const Menu = () => {
                 </Link>
               </li>
               <li className="menu-item">
-                <Link href="/resume">
+                <Link href="/resume" legacyBehavior>
                   <a className={router.pathname == "/resume" ? "active" : ""}>
                     <span className="mask-lnk">Resume</span>
                     <span className="mask-lnk mask-lnk-hover">Resume</span>
@@ -42,15 +42,15 @@ const Menu = () => {
                 </Link>
               </li>
               <li className="menu-item">
-                <Link href="/work">
-                  <a className={router.pathname == "/work" ? "active" : ""}>
-                    <span className="mask-lnk">Work</span>
-                    <span className="mask-lnk mask-lnk-hover">Work</span>
+                <Link href="/projects" legacyBehavior>
+                  <a className={router.pathname == "/projects" ? "active" : ""}>
+                    <span className="mask-lnk">Projects</span>
+                    <span className="mask-lnk mask-lnk-hover">Projects</span>
                   </a>
                 </Link>
               </li>
               <li className="menu-item">
-                <Link href="/contacts">
+                <Link href="/contacts" legacyBehavior>
                   <a className={router.pathname == "/contacts" ? "active" : ""}>
                     <span className="mask-lnk">Contact</span>
                     <span className="mask-lnk mask-lnk-hover">Contact</span>

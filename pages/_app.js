@@ -11,6 +11,7 @@ import "../public/css/swiper.css";
 import "../public/css/fontawesome.css";
 import "../public/css/brands.css";
 import "../public/css/solid.css";
+import "../public/css/github-projects.css";
 
 
 function MyApp({ Component, pageProps }) {
@@ -42,9 +43,9 @@ function MyApp({ Component, pageProps }) {
         />
 
       <Head>
-        <title>Spenser McConnell - Web Developer & Technical Project Manager</title>
-
-        <link rel="shortcut icon" href="images/favicons/favicon.png" />
+        <title>Spenser McConnell — AI Systems Builder & TPM</title>
+        <meta name="description" content="I build AI systems with real context and clean integrations. Technical product manager and hands-on builder focused on agent workflows, internal tools, and automation that actually gets used." />
+        <meta name="keywords" content="AI systems, agent workflows, automation, technical product manager, AI architect, internal tools, Indianapolis" />
       </Head>
       <Component {...pageProps} />
     </Fragment>

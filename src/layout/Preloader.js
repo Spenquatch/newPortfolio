@@ -2,15 +2,13 @@ import { Fragment, useEffect, useState } from "react";
 const Preloader = () => {
   const [preloader, setPreloader] = useState(true);
   useEffect(() => {
+    // DISABLED - Lines animation removed
     // setTimeout(() => {
-    //   document.querySelector(".lines").className = "lines finish";
-    // }, 1500);
-    setTimeout(() => {
-      document.querySelector(".lines").classList.add("ready");
-    }, 3000);
+    //   document.querySelector(".lines")?.classList.add("ready");
+    // }, 3000);
     setTimeout(() => {
       setPreloader(false);
-      document.querySelector(".lines").classList.add("finish");
+      // document.querySelector(".lines")?.classList.add("finish");
     }, 1000);
   }, []);
   return (

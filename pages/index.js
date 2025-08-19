@@ -14,9 +14,7 @@ const Index = () => {
           <div className="vertical-center">
             <div className="started-content">
               <h1 className="h-title">
-                Hello, {`I’m`} <strong>Spenser McConnell</strong>, Web Developer
-                and <br />
-                Technical Project Manager Based in Indianapolis.
+                {`I build AI systems, stress-test them to their limits, and ship the survivors. I'm convinced small, task-specific models with solid tooling beat massive LLMs more often than the hype suggests.`}
               </h1>
               <TypingAnimation extraClassName={"h-subtitle"} />
               <span className="typed-subtitle" />

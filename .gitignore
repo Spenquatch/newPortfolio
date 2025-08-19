@@ -2,3 +2,8 @@
 .netlify
 node_modules
 .next
+
+# Documentation files (local only)
+CONTENT_INVENTORY.md
+newContent.md
+resume_cleaned.md

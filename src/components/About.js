@@ -17,19 +17,22 @@ const About = () => {
         {/* desc */}
         <div className="desc">
           <p>
-            Hello there! I&apos;m <strong>Spenser McConnell</strong>, a passionate Web Developer and Technical Project Manager from Indianapolis, Indiana. With a <strong>analytical</strong> mind and a drive for <strong>results</strong>, I&apos;ve dedicated my career to <strong>empowering</strong> my clients by boosting their brand visibility, driving revenue growth, and <strong>ensuring profitability</strong>. I take great pride in my <strong>interpersonal skills</strong>, and a strong combination of <strong>leadership</strong>, clear communication, and tenacious <strong>problem-solving skills</strong> have fueled my journey.
+            I&apos;ve been building software for over 15 years, and for the last five, I&apos;ve been hooked on AI development. It started as a way to boost my own workflow with smarter testing, automated code reviews, and instant prototypes. Then the rabbit hole opened, and I went all in. Now I&apos;m building 8-stage prompt frameworks, self-improving RL feedback loops, synthetic training data pipelines, and real-time streaming media servers for in-meeting AI avatars.
+          </p>
+          <p style={{ marginTop: '15px' }}>
+            These days I treat AI like any other part of the stack. I understand how it works, stress-test it, and only keep what&apos;s useful. I squeeze most of this work into early mornings and late nights, between managing 3½-year-old twins. When your time&apos;s precious, you quickly learn the difference between what sounds cool and what actually works.
           </p>
           <div className="info-list">
             <ul>
               <li>
-                <strong>Freelance:</strong> Available
+                <strong>Freelance:</strong> Available (select projects)
               </li>
               <li>
                 <strong>Location:</strong> Indianapolis, IN
               </li>
               <li>
                 <strong>Phone:</strong>{" "}
-                <a href="tel:812-343-5020">812.343.5020</a>
+                <a href="tel:812-343-5020">812-343-5020</a>
               </li>
               <li>
                 <strong>E-mail:</strong>{" "}
@@ -43,7 +46,7 @@ const About = () => {
             </ul>
           </div>
           <div className="bts">
-            <a href="downloadFiles/spenserMcconnellResume2023.pdf"
+            <a href="downloadFiles/spenserMcconnellResume2025.pdf"
                target="_blank"
                download
                rel="noreferrer" 
