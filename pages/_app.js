@@ -43,7 +43,7 @@ function MyApp({ Component, pageProps }) {
         />
 
       <Head>
-        <title>Spenser McConnell — AI Systems Builder & TPM</title>
+        <title>Spenser McConnell — AI Systems Builder</title>
         <meta name="description" content="I build AI systems with real context and clean integrations. Technical product manager and hands-on builder focused on agent workflows, internal tools, and automation that actually gets used." />
         <meta name="keywords" content="AI systems, agent workflows, automation, technical product manager, AI architect, internal tools, Indianapolis" />
       </Head>
