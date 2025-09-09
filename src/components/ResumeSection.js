@@ -17,13 +17,13 @@ const ResumeSection = () => {
                 <div className="text">
                   <ul>
                     <li>
-                      Owned product and engineering roadmap, leading sprint meetings, setting clear goals, and driving accountability.
+                      Drove product and engineering roadmap, balancing technical architecture with strategic priorities.
                     </li>
                     <li>
-                      Streamlined product feature prioritization and timeline management to align initiatives with business objectives.
+                      Implemented AI-driven systems (RAG, automation, LLM integrations) to accelerate delivery and reduce engineering overhead.
                     </li> 
                     <li>
-                      Advocated for and implemented a student-focused product offering, expanding market appeal and driving growth.
+                      Translated complex technical decisions into clear business insights, enabling faster stakeholder alignment.
                     </li>                                                                                                   
                   </ul>
                 </div>
@@ -35,13 +35,13 @@ const ResumeSection = () => {
                 <div className="text">
                   <ul>
                     <li>
-                      Led a team of 4 developers to build responsive, high-performance websites for higher education clients, integrating custom plugins and modern frameworks.
+                      Led a 4-person engineering team, shipping high-performance sites and introducing AI-augmented workflows.
                     </li>
                     <li>
-                      Implemented a modern page builder system, reducing development time by <strong>45%</strong> and increasing page load speed by <strong>50%</strong>.
+                      Implemented a modern page builder system, reducing development time by <strong>45%</strong> and improving performance by <strong>50%</strong>.
                     </li> 
                     <li>
-                      Directed Web and AI initiatives, implemented standardized workflows, mentored junior developers, and drove adoption of AI tools for optimized resource allocation and improved team productivity.
+                      Directed engineering and AI initiatives, leading architectural decisions, mentoring developers/designers, and translating complex technical solutions into clear strategies for clients and executives.
                     </li>                                                                                                   
                   </ul>
                 </div>
@@ -53,39 +53,36 @@ const ResumeSection = () => {
                 <div className="text">
                   <ul>
                     <li>
-                      Collaborated with clients to understand business needs, designing innovative solutions for improved results.
+                      Delivered full-stack solutions from design to deployment, acting as both engineer and consultant.
                     </li>
                     <li>
-                      Managed projects from ideation to closure, maintaining strong client relationships.
+                      Guided clients through technical trade-offs to achieve scalable business outcomes.
                     </li> 
                     <li>
-                      Delivered target audience-specific marketing campaigns to boost engagement.
-                    </li>
-                    <li>
-                      Designed brand-specific logos, graphics, and websites for clients.
+                      Introduced automation/AI workflows that improved client efficiency and engagement.
                     </li>                                                                                                  
                   </ul>
                 </div>
               </div>
-              <div className="resume-item content-box">
+              <div className="resume-item content-box active">
                 <div className="date">Nov 2015 – Sep 2017</div>
                 <div className="name">Full Stack Engineer</div>
                 <div className="companyName">MKR</div>
                 <div className="text">
                   <ul>
                     <li>
-                      Led a technical team of 3 developers, providing architectural guidance and spearheading a complete visual redesign of a legacy enterprise site.
+                      Directed architecture for a complete enterprise site redesign, leading a 3-person dev team.
                     </li>
                     <li>
-                      Created a location finder tool that boosted store visits by <strong>25%</strong> in the first 3 months.
+                      Built a location finder tool that increased store visits by <strong>25%</strong> in 3 months.
                     </li> 
                     <li>
-                      Mentored designers in technical best practices and led strategic planning for digital initiatives.
+                      Mentored developers and designers, guiding technical best practices and translating complex architecture decisions into clear business value.
                     </li>                                                                                                                                              
                   </ul>
                 </div>
               </div> 
-              <div className="resume-item content-box">
+              <div className="resume-item content-box active">
                 <div className="date">Apr 2015 – Nov 2015</div>
                 <div className="name">Front-End Engineer</div>
                 <div className="companyName">Humana</div>
@@ -106,14 +103,14 @@ const ResumeSection = () => {
                   </ul> 
                 </div>
               </div>
-              <div className="resume-item content-box">
+              <div className="resume-item content-box active">
                 <div className="date">Feb 2012 – Mar 2015</div>
                 <div className="name">Web Developer</div>
                 <div className="companyName">Joust Multimedia</div>
                 <div className="text">
                   <ul>
                     <li>
-                      Designed and developed custom websites for clients, prioritizing mobile-friendly design and robust functionality.
+                      Designed and developed custom, mobile-first websites tailored to client needs.
                     </li>
                     <li>
                       Led client strategy sessions to align technical solutions with business objectives.

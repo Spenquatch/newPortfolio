@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import Link from "next/link";
 import { buttonHover } from "../utils";
 
 
@@ -46,14 +47,12 @@ const About = () => {
             </ul>
           </div>
           <div className="bts">
-            <a href="downloadFiles/spenserMcconnellResume2025.pdf"
-               target="_blank"
-               download
-               rel="noreferrer" 
-               className="btn btn-6">
-            <span className="btn-text">Download CV</span>
-              <span className="btn-bg"></span>
-            </a>
+            <Link href="/contacts#section-contacts" legacyBehavior>
+              <a className="btn btn-6">
+                <span className="btn-text">Get in Touch!</span>
+                <span className="btn-bg"></span>
+              </a>
+            </Link>
           </div>
         </div>
         <div className="clear" />

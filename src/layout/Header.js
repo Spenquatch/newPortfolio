@@ -7,18 +7,14 @@ const Menu = () => {
 
   return (
     <Fragment>
-      <div className="logo hover-masks-logo">
-        <a     href="downloadFiles/spenserMcconnellResume2025.pdf"
-               target="_blank"
-               download
-               rel="noreferrer" >
-          <span className="mask-lnk">
-            Spenser <strong>McConnell</strong>
-          </span>
-          <span className="mask-lnk mask-lnk-hover">
-            Download <strong>CV</strong>
-          </span>
-        </a>
+      <div className="logo">
+        <Link href="/" legacyBehavior>
+          <a>
+            <span className="mask-lnk">
+              Spenser <strong>McConnell</strong>
+            </span>
+          </a>
+        </Link>
       </div>
       {/* top menu */}
       <div className="top-menu hover-masks">
