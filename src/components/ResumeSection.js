@@ -12,7 +12,7 @@ const ResumeSection = () => {
             <div className="resume-items">
               <div className="resume-item content-box active">
                 <div className="date">Apr 2024 – Present</div>
-                <div className="name">Technical Product Manager</div>
+                <div className="name">Technical Product Manager & AI Engineering Strategist</div>
                 <div className="companyName">Acadium</div>
                 <div className="text">
                   <ul>
@@ -30,7 +30,7 @@ const ResumeSection = () => {
               </div>              
               <div className="resume-item content-box active">
                 <div className="date">May 2022 – May 2024</div>
-                <div className="name">Web Development Manager</div>
+                <div className="name">Engineering Lead & Web Director (AI Initiatives)</div>
                 <div className="companyName">UNINCORPORATED</div>
                 <div className="text">
                   <ul>
@@ -48,7 +48,7 @@ const ResumeSection = () => {
               </div>
               <div className="resume-item content-box active">
                 <div className="date">Apr 2011 – Oct 2021</div>
-                <div className="name">Founder & Web Developer</div>
+                <div className="name">Founder & Software Engineer</div>
                 <div className="companyName">Surreal Studio</div>
                 <div className="text">
                   <ul>
@@ -69,7 +69,7 @@ const ResumeSection = () => {
               </div>
               <div className="resume-item content-box">
                 <div className="date">Nov 2015 – Sep 2017</div>
-                <div className="name">Digital Developer</div>
+                <div className="name">Full Stack Engineer</div>
                 <div className="companyName">MKR</div>
                 <div className="text">
                   <ul>
@@ -87,7 +87,7 @@ const ResumeSection = () => {
               </div> 
               <div className="resume-item content-box">
                 <div className="date">Apr 2015 – Nov 2015</div>
-                <div className="name">Front End Developer</div>
+                <div className="name">Front-End Engineer</div>
                 <div className="companyName">Humana</div>
                 <div className="text">
                   <ul>

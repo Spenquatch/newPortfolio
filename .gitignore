@@ -7,3 +7,4 @@ node_modules
 CONTENT_INVENTORY.md
 newContent.md
 resume_cleaned.md
+.env
